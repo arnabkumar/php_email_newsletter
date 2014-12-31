@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>This is title</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!--for responsive -->
+
+         
+	    
+		<!-- bootstrap css -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		
+		
+		
+		<!--# [HTML5 Boilerplate](http://html5boilerplate.com)-->
+		 
+        <link rel="stylesheet" href="css/normalize.css">
+		
+		<!--# [HTML5 Boilerplate] css , reset css and custom css -->
+       
+        <link rel="stylesheet" href="css/custom.css">
+		
+		<!--custom responsive css using bootstrap Mobile First Method  css -->
+		
+        <link rel="stylesheet" href="css/responsive.css">
+		
+     
+		
+		<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+		<!-- working email newsletter form -->
+		<div class="container text-center">
+		<div class="page-header">
+		 <h1>working bootstrap email newsletter form</h1>
+		 <h2><a target="_blank" href="https://www.designerfreesolutions.com/resources/ajaxsignup_php/form.html">Tutorial</h2></a>
+		 <p>Test it with local or live server</p>
+		</div>
+		<form onsubmit="return signup(this);return false;" method="post" class="form-inline" role="form" id="subform">
+  <div class="form-group">
+    <div class="input-group">
+      <label class="sr-only" for="exampleInputEmail2">Email address</label>
+      <div class="input-group-addon">@</div>
+      <input type="email" name="email" class="form-control" id="email" placeholder="Enter email" value="" required>
+    </div>
+  </div>
+  <button type="submit"  id="submit" class="btn btn-default">Sign Up</button>
+  <div id="myResponse" style="DISPLAY:none;"></div>
+		<div id="loading" style="display:none;">
+		<img src="images/wait.gif" alt="">
+		</div>
+</form>
+
+       
+
+		</div>
+
+
+
+
+
+
+	   <!--call jquery from server -->
+		
+       <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<!--call jquery from local-->
+		
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+		
+		
+	
+		
+		<!--call Boilerplate modernizr from local-->
+		
+		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+		
+		
+		
+	    <!--call Boilerplate active js  from local-->
+        <script src="js/php_newsletter.js"></script>
+		
+	    <!--call bootstrap js  from local-->
+		
+        <script src="js/bootstrap.min.js"></script>
+		
+		
+		
+      
+    </body>
+</html>
